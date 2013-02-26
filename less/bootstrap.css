@@ -2431,7 +2431,7 @@ table th[class*="span"],
   display: none;
   float: left;
   min-width: 160px;
-  padding: 5px 0;
+  padding: 0px 0;
   margin: 2px 0 0;
   list-style: none;
   background-color: #ffffff;
@@ -2455,10 +2455,12 @@ table th[class*="span"],
   overflow: hidden;
   background-color: #e5e5e5;
   border-bottom: 1px solid #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .dropdown-menu > li > a {
   display: block;
-  padding: 3px 20px;
+  padding: 5px 15px;
   clear: both;
   font-weight: normal;
   line-height: 24px;
@@ -2536,7 +2538,7 @@ table th[class*="span"],
 .dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
-  margin-top: -6px;
+  margin-top: -2px;
   margin-left: -1px;
 }
 .dropdown-submenu:hover > .dropdown-menu {
@@ -2558,8 +2560,8 @@ table th[class*="span"],
   border-style: solid;
   border-width: 5px 0 5px 5px;
   border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
+  margin-top: 7px;
+  margin-right: -5px;
 }
 .dropdown-submenu:hover > a:after {
   border-left-color: #ffffff;

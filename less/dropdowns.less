@@ -46,7 +46,7 @@
   display: none; // none by default, but block on "open" of the menu
   float: left;
   min-width: 160px;
-  padding: 5px 0;
+  padding: 0px 0;
   margin: 2px 0 0; // override default ul
   list-style: none;
   background-color: @dropdownBackground;
@@ -67,12 +67,14 @@
   // Dividers (basically an hr) within the dropdown
   .divider {
     .nav-divider(@dropdownDividerTop, @dropdownDividerBottom);
+    margin-top: 0px; // Chacel margins
+    margin-bottom: 0px;
   }
 
   // Links within the dropdown menu
   > li > a {
     display: block;
-    padding: 3px 20px;
+    padding: 5px 15px;
     clear: both;
     font-weight: normal;
     line-height: @baseLineHeight;
@@ -169,7 +171,7 @@
 .dropdown-submenu > .dropdown-menu {
   top: 0;
   left: 100%;
-  margin-top: -6px;
+  margin-top: -2px;
   margin-left: -1px;
 }
 .dropdown-submenu:hover > .dropdown-menu {
@@ -195,8 +197,8 @@
   border-style: solid;
   border-width: 5px 0 5px 5px;
   border-left-color: darken(@dropdownBackground, 20%);
-  margin-top: 5px;
-  margin-right: -10px;
+  margin-top: 7px;
+  margin-right: -5px;
 }
 .dropdown-submenu:hover > a:after {
   border-left-color: @dropdownLinkColorHover;
