@@ -3325,7 +3325,7 @@ input[type="submit"].btn.btn-mini {
   *margin-left: 0;
 }
 .btn-group + .btn-group {
-  margin-left: 5px;
+  margin-left: 20px;
 }
 .btn-toolbar {
   font-size: 0;
@@ -3409,9 +3409,9 @@ input[type="submit"].btn.btn-mini {
 .btn-group > .btn + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px;
-  -webkit-box-shadow: inset 1px 0 0 rgba(255,255,255,.125), inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
-  -moz-box-shadow: inset 1px 0 0 rgba(255,255,255,.125), inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
-  box-shadow: inset 1px 0 0 rgba(255,255,255,.125), inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  -webkit-box-shadow: inset 1px 0 0 rgba(255,255,255,.25), inset 0 1px 0 rgba(255,255,255,.0), 0 1px 2px rgba(0,0,0,.0);
+  -moz-box-shadow: inset 1px 0 0 rgba(255,255,255,.25), inset 0 1px 0 rgba(255,255,255,.0), 0 1px 2px rgba(0,0,0,.0);
+  box-shadow: inset 1px 0 0 rgba(255,255,255,.25), inset 0 1px 0 rgba(255,255,255,.0), 0 1px 2px rgba(0,0,0,.0);
   *padding-top: 5px;
   *padding-bottom: 5px;
 }
@@ -3433,37 +3433,34 @@ input[type="submit"].btn.btn-mini {
 }
 .btn-group.open .dropdown-toggle {
   background-image: none;
-  -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
-  -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
-  box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
 }
 .btn-group.open .btn.dropdown-toggle {
-  background-color: #e6e6e6;
+  background-color: #f7f7f7;
 }
 .btn-group.open .btn-primary.dropdown-toggle {
-  background-color: #0044cc;
+  background-color: #006699;
 }
 .btn-group.open .btn-warning.dropdown-toggle {
-  background-color: #f89406;
+  background-color: #fa9f1e;
 }
 .btn-group.open .btn-danger.dropdown-toggle {
-  background-color: #bd362f;
+  background-color: #e9322d;
 }
 .btn-group.open .btn-success.dropdown-toggle {
-  background-color: #51a351;
+  background-color: #42b142;
 }
 .btn-group.open .btn-info.dropdown-toggle {
-  background-color: #2f96b4;
+  background-color: #31b0d5;
 }
 .btn-group.open .btn-inverse.dropdown-toggle {
-  background-color: #222222;
+  background-color: #2b2b2b;
 }
 .btn .caret {
-  margin-top: 8px;
+  margin-top: 11px;
   margin-left: 0;
 }
 .btn-large .caret {
-  margin-top: 6px;
+  margin-top: 10px;
 }
 .btn-large .caret {
   border-left-width: 5px;
@@ -3472,7 +3469,7 @@ input[type="submit"].btn.btn-mini {
 }
 .btn-mini .caret,
 .btn-small .caret {
-  margin-top: 8px;
+  margin-top: 10px;
 }
 .dropup .btn-large .caret {
   border-bottom-width: 5px;
